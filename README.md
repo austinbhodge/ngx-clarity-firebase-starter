@@ -1,0 +1,1 @@
+# Angular Clarity Firebase Starter

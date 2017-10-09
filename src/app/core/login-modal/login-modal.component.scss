@@ -1,0 +1,51 @@
+.btn-google {
+    background: #dd4b39;
+    border-color: #333;
+    transition: 0.5s;
+    &:hover {
+        background: rgba(221, 73, 57, 0.486);
+        transition: 0.5s;
+    }
+}
+
+.btn-facebook {
+    background:#3B5998;
+    border-color: #333;
+    transition: 0.5s;
+    &:hover {
+        background: rgba(59, 90, 152, 0.493);
+        transition: 0.5s;
+    }
+}
+
+.btn-twitter {
+    background:#1dcaff;
+    border-color: #333;
+    transition: 0.5s;
+    &:hover {
+        background: rgba(29, 202, 255, 0.431);
+        transition: 0.5s;
+    }
+}
+
+.btn-github {
+    background:#24292e;
+    border-color: #333;
+    transition: 0.5s;
+    &:hover {
+        background: rgba(36, 41, 46, 0.438);
+        transition: 0.5s;
+    }
+}
+
+.username {
+    height: 30px;
+    margin: 5px;
+    width: 60%;
+}
+
+.password {
+    height: 30px;
+    margin: 5px;
+    width: 60%;
+}

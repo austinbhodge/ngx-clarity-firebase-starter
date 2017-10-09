@@ -1,0 +1,21 @@
+<clr-header>
+        <div class="branding">
+          <a href="#" class="nav-link">
+            <span class="clr-icon clr-clarity-logo"></span>
+            <span class="title">Clarity Firebase</span>
+          </a>
+        </div>
+          <div class="header-nav" [clr-nav-level]="1">
+              <a class="nav-link nav-icon" href="#" [routerLink]="['/home']" routerLinkActive="active">
+                <clr-icon shape="home"></clr-icon>
+              </a>
+              <a class="nav-link nav-icon" href="#" [routerLink]="['/newModule']" routerLinkActive="active">
+                <clr-icon shape="lightbulb"></clr-icon>
+              </a>
+          </div>
+        <div class="header-actions">
+            <a class="nav-link nav-icon" (click)="openLogin()">
+                <clr-icon shape="login"></clr-icon>
+            </a>
+        </div>
+      </clr-header>
